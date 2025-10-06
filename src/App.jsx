@@ -56,10 +56,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<main className="min-h-screen max-w-full mx-auto px-6 bg-gradient-to-b from-black via-gray-900 
-        to-black shadow-inner scrollbar-thin scrollbar-thumb-red-600 scrollbar-track-gray-800">
-          <Header />
-          <Searchbox handleMovieSearch={handleMovieSearch} />
-          <div className="max-w-7xl mx-auto mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pb-12">
+          to-black shadow-inner scrollbar-thin scrollbar-thumb-red-600 scrollbar-track-gray-800">
+          {/* <Header /> */}
+          {/* <Searchbox handleMovieSearch={handleMovieSearch} /> */}
+          {/* <div className="max-w-7xl mx-auto mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pb-12">
             {loading ? (
               <div className="col-span-4 flex justify-center items-center py-20">
                 <svg className="animate-spin h-12 w-12 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
@@ -80,7 +80,7 @@ function App() {
                 <h1 className="text-2xl font-bold text-gray-500">No movies found</h1>
               </div>
             )}
-          </div>
+          </div> */}
         </main>
         }
         />
