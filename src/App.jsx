@@ -32,7 +32,7 @@ function App() {
 
   let fetchMovies = async () => {
     try {
-      const movies = await axios.get(`http://www.omdbapi.com/?s=batman&apikey=47eae1d8`);
+      const movies = await axios.get(`https://www.omdbapi.com/?s=batman&apikey=47eae1d8`);
       setMovies(movies.data.Search || []);
     } catch (error) {
       console.log(error);
