@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import MovieCard from "./MovieCard";
+import Moviecard from "./Moviecard";
 
 function Favorites({ favorites, removeFavorite }) {
   const navigate = useNavigate();

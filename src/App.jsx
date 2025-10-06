@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "./Header";
-import MovieCard from "./MovieCard";
+import Moviecard from "./Moviecard";
 import Searchbox from "./Searchbox";
 import Details from "./Details";
 import Favorites from "./Favorites";
@@ -69,7 +69,7 @@ function App() {
               </div>
             ) : movies.length > 0 ? (
               Array.from(new Map(movies.map(m => [m.imdbID, m])).values()).map((item) =>
-                <MovieCard
+                <Moviecard
                   movie={item}
                   key={item.imdbID}
                   isFav={favorites.some((fav) => fav.imdbID === item.imdbID)}

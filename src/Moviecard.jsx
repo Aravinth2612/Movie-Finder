@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function MovieCard({ movie, isFav, addFavorite, removeFavorite }) {
+function Moviecard({ movie, isFav, addFavorite, removeFavorite }) {
     return (
         <div className="bg-gray-800 text-white p-4 rounded-lg shadow-md">
             <Link to={`/movie/${movie.imdbID}`}>
@@ -33,4 +33,4 @@ function MovieCard({ movie, isFav, addFavorite, removeFavorite }) {
     );
 }
 
-export default MovieCard;
+export default Moviecard;
